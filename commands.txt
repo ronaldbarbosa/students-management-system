@@ -1,0 +1,15 @@
+Ambiente virtual
+criando o ambiente virtual = python3 -m venv venv
+permissão de execução para o arquivo activate = chmod +7 ./venv/bin/activate
+ativar ambiente virtual, execução do arquivo activate = source ./venv/bin/activate
+desativar ambiente virtual = deactivate
+
+Django
+Projeto
+criar projeto django = django-admin startproject nome_projeto .
+executar servidor de desenvolvimento = python3 manage.py runserver
+App
+criar app dentro do projeto = python3 manage.py startapp nome_app
+Migrations
+criar migrations: python3 manage.py makemigrations
+aplicar mudanças ao db = python3 manage.py migrate
