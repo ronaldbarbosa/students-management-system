@@ -8,8 +8,13 @@ Django
 Projeto
 criar projeto django = django-admin startproject nome_projeto .
 executar servidor de desenvolvimento = python3 manage.py runserver
+
 App
 criar app dentro do projeto = python3 manage.py startapp nome_app
+
 Migrations
 criar migrations: python3 manage.py makemigrations
 aplicar mudanças ao db = python3 manage.py migrate
+
+Users
+Criar superuser para usar o Admin = python3 manage.py createsuperuser (depois de adicionar a model no arquivo admin.py)
